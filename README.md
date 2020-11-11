@@ -2,6 +2,7 @@
 
 ## Temari del curs "React, de cero a experto" - Fernando Herrera (platf. UDEMY)
 
+- Base JS ES6
 - React a profundidad
 - Hooks y Hooks personalizados
 - Functional Components
@@ -9,6 +10,7 @@
 - Context API
 - Redux
 - MERN - Mongo + Express + React + Node
+- Firebase, Firestone
 - Router
 - Diseños diferentes en diferentes rutas
 - SASS
