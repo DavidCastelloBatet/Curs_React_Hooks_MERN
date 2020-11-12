@@ -36,10 +36,9 @@ console.log(`Retorna los números : ${numeros}`);
 //    return [valor, ()=>{console.log('Hola Mundo')}];
 //}
 
-//const [nombre, setNombre] = useStateNuevo('Goku');
+//const arre = useStateNuevo('Goku');
 
-//console.log(nombre);
-// setNombre();
+//console.log(arre);
 
 
 
