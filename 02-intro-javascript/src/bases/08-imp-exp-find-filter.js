@@ -1,7 +1,7 @@
 //import { heroes } from './data/heroes';
 
 //const { default: heroes } = require("./data/heroes");
-import heroes, {owners} from './data/heroes';
+import heroes, {owners} from '../data/heroes';
 
 // El metodo find recibe una funcion como argumento (callback), el find barrera los elementos heroe de heroes hasta que encuentre un que cumpla la condicion del find y retornara el PRIMERO que encuentre
 
@@ -20,8 +20,7 @@ console.log(getHeroeByIdSimp(3));
 
 // el metodo filter recibe una funcion como argumento (callback), el filter barrera los elementos heroe de heroes y retornara TODOS los  que encuentre  que cumplan la condicion del filter
 
-const [o1, o2] = owners;
-console.log(`Owners importados : ${o1} i ${o2}`);
+console.log(`Owners importados : ${owners}`);
 
 const getHeroByOwner = (owner) => {
     return heroes.filter((heroe) => {
