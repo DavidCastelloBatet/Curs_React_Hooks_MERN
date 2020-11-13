@@ -5,7 +5,7 @@ import heroes, {owners} from '../data/heroes';
 
 // El metodo find recibe una funcion como argumento (callback), el find barrera los elementos heroe de heroes hasta que encuentre un que cumpla la condicion del find y retornara el PRIMERO que encuentre
 
-const getHeroeById = (id) => {
+export const getHeroeById = (id) => {
     return heroes.find(heroe => {
         return id === heroe.id
     })
@@ -22,7 +22,7 @@ console.log(getHeroeByIdSimp(3));
 
 console.log(`Owners importados : ${owners}`);
 
-const getHeroByOwner = (owner) => {
+export const getHeroByOwner = (owner) => {
     return heroes.filter((heroe) => {
         return heroe.owner === owner;
     })
